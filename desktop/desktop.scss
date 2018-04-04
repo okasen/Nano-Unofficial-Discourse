@@ -7,7 +7,7 @@
 
 // Natural white background for content with shadow
 body {
-  background-color: #a09a91;
+  background-color: slategray;
 }
 
 .content-list h3 {
@@ -25,7 +25,7 @@ body:before {
   width: 1250px;
   min-height: 100%;
   height: inherit;
-  background-color: slategray;
+  background-color: $secondary;
   content: " ";
   position: fixed;
   left: 50%;
