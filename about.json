@@ -13,7 +13,7 @@
             "header_background": "7edaee", //header
             "header_primary": "674732", //header text
             "highlight": "#000fff", //color of text when highlighted
-            "danger": "000000", //no idea what these 3 do
+            "danger": "FF0000", //no idea what these 3 do
             "success": "40b549",
             "love": "bb0055"
         }
