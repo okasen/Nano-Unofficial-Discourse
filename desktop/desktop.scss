@@ -12,9 +12,10 @@ body {
 
 //make logo bigger
 #site-logo.logo-big {
-    height: 250px;
+  max-height: 500px;
+  max-width: 1860px;
+  margin-top: -5px;
 }
-
 body:before {
   display: inline-block;
   width: 1250px;
