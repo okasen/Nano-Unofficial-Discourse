@@ -114,14 +114,14 @@ body.docked::before {
 .topic-list .activity .latest-info .name {
   display: block;
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 5em;
   margin-top: 0px;
   color: #737373;
 }
 
 .topic-list .activity .latest-info .relative-date {
   display: block;
-  font-size: 0.9em;
+  font-size: 10em;
   color: #737373;
 }
 
@@ -132,7 +132,7 @@ body.docked::before {
 // Last visit separator re-coloring
 .topic-list .topic-list-item-separator td {
   border-bottom: 1px solid #ff6600;
-  line-height: 0.1em;
+  line-height: 1em;
   padding: 0px;
   text-align: center;
 }
@@ -141,7 +141,7 @@ body.docked::before {
   background-color: #FDFBF9;
   color: #ff6600;
   padding: 0px 8px;
-  font-size: 0.929em;
+  font-size: 50em;
 }
 
 /* Fix for Discourse bug.
