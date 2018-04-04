@@ -6,13 +6,13 @@
   },
   "color_schemes": {
               "NovelistTheme": {
-            "primary": "ff00ff", //text color
+            "primary": "443333", //text color
             "secondary": "e2eff3", //page background
             "tertiary": "63b9c4", //button background
             "quaternary": "0095b0", //button background also?
             "header_background": "7edaee", //header
             "header_primary": "674732", //header text
-            "highlight": "ffffcc", //color of text when highlighted
+            "highlight": "000000", //color of text when highlighted
             "danger": "000000", //no idea what these 3 do
             "success": "40b549",
             "love": "bb0055"
