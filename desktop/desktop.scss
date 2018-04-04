@@ -121,7 +121,7 @@ body.docked::before {
 .topic-list td {
   padding: 5px 5px;
 }
-/*
+
 // Last visit separator re-coloring
 .topic-list .topic-list-item-separator td {
   border-bottom: 10px solid #996633; //test
@@ -131,11 +131,11 @@ body.docked::before {
 }
 
 .topic-list .topic-list-item-separator td span {
-  background-color: #e2eff3;
+  background-color: #fefeee;
   color: #594a41; //text color
   padding: 0px 80px; //testing padding
   font-size: 0.929em;
-}*/
+}
 
 /* Fix for Discourse bug.
    Progress indicator positioning gets off with footer. */
