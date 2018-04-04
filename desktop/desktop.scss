@@ -10,13 +10,13 @@ body {
 }
 
 //make logo bigger
-site-logo {
+.site-logo {
     max-height: 250px
 }
 
 body:before {
   display: inline-block;
-  width: 1025px;
+  width: 1250px;
   min-height: 100%;
   height: inherit;
   background-color: #d3eff3;
