@@ -1,12 +1,7 @@
-// Header modifications with stripe and shadow
+// Heavy Shadow
 .d-header {
   border-bottom: 5px dotted #996633;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);
-}
-
-// Header logos to pure white
- .d-header-icons .d-icon {
-  opacity: 1;
 }
 
 // Natural white background for content with shadow
@@ -16,10 +11,10 @@ body {
 
 body:before {
   display: inline-block;
-  width: 1125px;
+  width: 80%;
   min-height: 100%;
   height: inherit;
-  background-color: #e3eff3;
+  background-color: #d3eff3;
   content: " ";
   position: fixed;
   left: 50%;
@@ -84,10 +79,11 @@ body.docked::before {
 }
 
 .topic-list .activity img.avatar {
-  vertical-align: middle;
+ /* vertical-align: middle;
   margin-right: 5px;
   max-height: 32px;
-  max-width: 32px;
+  max-width: 32px;*/
+    display: none; //testing out removing avatars
 }
 
 .topic-list .activity {
@@ -102,7 +98,7 @@ body.docked::before {
   font-weight: bold;
   font-size: 0.9em;
   margin-top: 0px;
-  color: #737373;
+  color: #444444;
 }
 
 .topic-list .activity .latest-info .relative-date {
@@ -117,7 +113,7 @@ body.docked::before {
 
 // Last visit separator re-coloring
 .topic-list .topic-list-item-separator td {
-  border-bottom: 1px solid #996633;
+  border-bottom: 10px solid #996633; //test
   line-height: 0.1em;
   padding: 0px;
   text-align: center;
@@ -125,8 +121,8 @@ body.docked::before {
 
 .topic-list .topic-list-item-separator td span {
   background-color: #e2eff3;
-  color: #796a61;
-  padding: 0px 8px;
+  color: #594a41; //text color
+  padding: 0px 80px; //testing padding
   font-size: 0.929em;
 }
 
@@ -139,3 +135,5 @@ body.docked::before {
 #topic-progress-wrapper.docked {
   margin-bottom: -20px;
 }
+
+//code based partially off of github.com/TapparaCo/discourse-theme-battle-axe
