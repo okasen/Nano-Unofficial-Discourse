@@ -18,7 +18,7 @@ body {
 #site-logo.logo-big {
   max-height: 80px;
   max-width: 250px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 body:before {
   display: inline-block;
@@ -135,11 +135,11 @@ body.docked::before {
 }
 
 .topic-list .topic-list-item-separator td span {
-  background-color: #fefeee;
+  background-color: #000;
   color: #444444; //text color
   padding: 0px 80px; //testing padding
-  font-size: 1em;
-}
+  font-size: 5em;
+} //new as of 6:15pm on 4/4/2018
 
 /* Fix for Discourse bug.
    Progress indicator positioning gets off with footer. */
