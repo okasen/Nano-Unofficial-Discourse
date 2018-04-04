@@ -1,0 +1,155 @@
+// Header modifications with stripe and shadow
+.d-header {
+  border-top: 100px solid #ff6600;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+// Header logos to pure white
+/*.d-header-icons .d-icon {
+  opacity: 1;
+}*/
+
+// Increase logo sizes
+#site-logo.logo-big {
+  height: 500px;
+  width: 186px;
+  margin-top: -5px;
+}
+
+#site-logo.logo-small {
+  height: 500px;
+  width: 51px;
+  margin-top: -5px;
+}
+
+// Natural white background for content with shadow
+body {
+  background-color: #e6e6e6;
+}
+
+body:before {
+  display: inline-block;
+  width: 1125px;
+  min-height: 100%;
+  height: inherit;
+  background-color: #fdfbf9;
+  content: " ";
+  position: fixed;
+  left: 50%;
+  right: 0;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+}
+
+// Also set for "now typing" users notification
+.presence-users {
+  background-color: #fdfbf9;
+}
+
+// Natural white for message editor background area
+#reply-control {
+    background-color: #fdfbf9;
+}
+
+// User profile messages list
+.user-stream .item, .user-stream .user-stream-item {
+  background-color: #fdfbf9;
+}
+
+body.docked::before {
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+// Adjust Categories view category bullets
+.topic-list.categories td.category {
+  border-left: 13px solid;
+}
+
+// Reduced AdSense padding, hide ADVERTISEMENT-labels
+.adsense {
+  text-align: center;
+  padding: 1px;
+  margin-bottom: 5px;
+}
+
+.google-adsense-label {
+  display: none;
+}
+
+.google-dfp-ad-label {
+  display: none;
+}
+
+// Hide the dangerous Mailing list mode -setting
+.user-preferences .pref-mailing-list-mode {
+  display: none;
+}
+
+// Remove extra space between before ad in categories view
+#list-area {
+  margin-bottom: 20px;
+}
+
+// The so called "Sanitized Mod" UI adjustments
+.topic-list .activity .latest-info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.topic-list .activity img.avatar {
+  vertical-align: middle;
+  margin-right: 5px;
+  max-height: 32px;
+  max-width: 32px;
+}
+
+.topic-list .activity {
+  width: 160px;
+  text-align: left;
+  padding-left: 20px;
+  white-space: nowrap;
+}
+
+.topic-list .activity .latest-info .name {
+  display: block;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-top: 0px;
+  color: #737373;
+}
+
+.topic-list .activity .latest-info .relative-date {
+  display: block;
+  font-size: 0.9em;
+  color: #737373;
+}
+
+.topic-list td {
+  padding: 5px 5px;
+}
+
+// Last visit separator re-coloring
+.topic-list .topic-list-item-separator td {
+  border-bottom: 1px solid #ff6600;
+  line-height: 0.1em;
+  padding: 0px;
+  text-align: center;
+}
+
+.topic-list .topic-list-item-separator td span {
+  background-color: #FDFBF9;
+  color: #ff6600;
+  padding: 0px 8px;
+  font-size: 0.929em;
+}
+
+/* Fix for Discourse bug.
+   Progress indicator positioning gets off with footer. */
+.posts-wrapper {
+  margin-bottom: 16px;
+}
+
+#topic-progress-wrapper.docked {
+  margin-bottom: -20px;
+}
