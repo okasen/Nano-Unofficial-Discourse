@@ -1,13 +1,13 @@
 // Heavy Shadow
 .d-header {
-    height: 60px;
+    height: 100px;
   border-bottom: 5px dotted #996633;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);
 }
 
 // Natural white background for content with shadow
 body {
-  background-color: slategray;
+  background-color: #668890;
 }
 
 .content-list h3 {
@@ -16,7 +16,7 @@ body {
 
 //make logo bigger
 #site-logo.logo-big {
-  max-height: 50px;
+  max-height: 80px;
   max-width: 186px;
   margin-top: -5px;
 }
@@ -136,7 +136,7 @@ body.docked::before {
 
 .topic-list .topic-list-item-separator td span {
   background-color: #fefeee;
-  color: #594a41; //text color
+  color: #444444; //text color
   padding: 0px 80px; //testing padding
   font-size: 1em;
 }
