@@ -9,9 +9,14 @@ body {
   background-color: #a09a91;
 }
 
+//make logo bigger
+site-logo {
+    max-height: 250px
+}
+
 body:before {
   display: inline-block;
-  width: 80%;
+  width: 1025px;
   min-height: 100%;
   height: inherit;
   background-color: #d3eff3;
@@ -104,13 +109,13 @@ body.docked::before {
 .topic-list .activity .latest-info .relative-date {
   display: block;
   font-size: 0.9em;
-  color: #737373;
+  color: #444444;
 }
 
 .topic-list td {
   padding: 5px 5px;
 }
-
+/*
 // Last visit separator re-coloring
 .topic-list .topic-list-item-separator td {
   border-bottom: 10px solid #996633; //test
@@ -124,7 +129,7 @@ body.docked::before {
   color: #594a41; //text color
   padding: 0px 80px; //testing padding
   font-size: 0.929em;
-}
+}*/
 
 /* Fix for Discourse bug.
    Progress indicator positioning gets off with footer. */
