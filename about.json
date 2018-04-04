@@ -6,16 +6,16 @@
   },
   "color_schemes": {
               "NovelistTheme": {
-            "primary": "443333", //text color
-            "secondary": "e2eff3", //page background
-            "tertiary": "63b9c4", //button background
-            "quaternary": "0095b0", //button background also?
-            "header_background": "7edaee", //header
-            "header_primary": "674732", //header text
+            "primary": "#443333", //text color
+            "secondary": "#e2eff3", //page background
+            "tertiary": "#63b9c4", //button background
+            "quaternary": "#0095b0", //button background also?
+            "header_background": "#7edaee", //header
+            "header_primary": "#674732", //header text
             "highlight": "#000fff", //color of text when highlighted
-            "danger": "FF0000", //no idea what these 3 do
-            "success": "40b549",
-            "love": "bb0055"
+            "danger": "#FF0000", //no idea what these 3 do
+            "success": "#40b549",
+            "love": "#bb0055"
         }
   }
 }
