@@ -1,160 +1,155 @@
-.topic-list > tbody > tr:nth-child(odd) {
-    background-color: #d1def3;
+// Header modifications with stripe and shadow
+.d-header {
+  border-top: 10px solid #ff6600;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-
-.topic-list > tbody tr:not(.last-visit):not(.topic-list-item-separator) td {
-    border-bottom: 1px solid #ff00ff;
+// Header logos to pure white
+.d-header-icons .d-icon {
+  opacity: 1;
 }
 
-.topic-list a.title:not(.badge-notification) {
-    color: #0000ff;
-    font-weight: normal;
-    font-family: 'Helvetica Neue', Helvetica, Arial, Utkal, sans-serif;
-    font-size: 18px;
+// Increase logo sizes
+#site-logo.logo-big {
+  max-height: 50px;
+  max-width: 186px;
+  margin-top: -5px;
 }
 
-.topic-list a.title:not(.badge-notification):hover {
-    text-decoration: underline;
+#site-logo.logo-small {
+  max-height: 50px;
+  max-width: 51px;
+  margin-top: -5px;
 }
 
-.topic-list .creator, .topic-list .editor {
-    font-size: 13px;
-    display: block;
-    margin-top: 3px;
+// Natural white background for content with shadow
+body {
+  background-color: #e6e6e6;
 }
 
-.topic-list .main-link {
-    width: auto;
+body:before {
+  display: inline-block;
+  width: 1125px;
+  min-height: 100%;
+  height: inherit;
+  background-color: #fdfbf9;
+  content: " ";
+  position: fixed;
+  left: 50%;
+  right: 0;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
 }
 
-.topic-list {
-    td, .creator a, .editor a {
-        color: #ff0000;
-    }
+// Also set for "now typing" users notification
+.presence-users {
+  background-color: #fdfbf9;
+}
+
+// Natural white for message editor background area
+#reply-control {
+    background-color: #fdfbf9;
+}
+
+// User profile messages list
+.user-stream .item, .user-stream .user-stream-item {
+  background-color: #fdfbf9;
+}
+
+body.docked::before {
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+// Adjust Categories view category bullets
+.topic-list.categories td.category {
+  border-left: 13px solid;
+}
+
+// Reduced AdSense padding, hide ADVERTISEMENT-labels
+.adsense {
+  text-align: center;
+  padding: 1px;
+  margin-bottom: 5px;
+}
+
+.google-adsense-label {
+  display: none;
+}
+
+.google-dfp-ad-label {
+  display: none;
+}
+
+// Hide the dangerous Mailing list mode -setting
+.user-preferences .pref-mailing-list-mode {
+  display: none;
+}
+
+// Remove extra space between before ad in categories view
+#list-area {
+  margin-bottom: 20px;
+}
+
+// The so called "Sanitized Mod" UI adjustments
+.topic-list .activity .latest-info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.topic-list .activity img.avatar {
+  vertical-align: middle;
+  margin-right: 5px;
+  max-height: 32px;
+  max-width: 32px;
+}
+
+.topic-list .activity {
+  width: 160px;
+  text-align: left;
+  padding-left: 20px;
+  white-space: nowrap;
+}
+
+.topic-list .activity .latest-info .name {
+  display: block;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-top: 0px;
+  color: #737373;
+}
+
+.topic-list .activity .latest-info .relative-date {
+  display: block;
+  font-size: 0.9em;
+  color: #737373;
 }
 
 .topic-list td {
-    padding-bottom: 10px;
+  padding: 5px 5px;
 }
 
-.topic-list th {
-    color: black;
-    background-color: #aaaaaa;
-}
-.topic-list {
-    border-top: none;
-}
-
-.topic-list td:first-of-type {
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
+// Last visit separator re-coloring
+.topic-list .topic-list-item-separator td {
+  border-bottom: 1px solid #ff6600;
+  line-height: 0.1em;
+  padding: 0px;
+  text-align: center;
 }
 
-.topic-list tr.topic-list-item-separator td:first-of-type {
-    padding: 0;
+.topic-list .topic-list-item-separator td span {
+  background-color: #FDFBF9;
+  color: #ff6600;
+  padding: 0px 8px;
+  font-size: 0.929em;
 }
 
- 
-.topic-list {
-    .fa-tag {
-        opacity: 0.7;
-        font-size: 10px;
-        margin-right: -2px;
-    }
-    .num.posts-map {
-        position: relative;
-        font-size: 17px;
-        a {
-            color: #888 !important;
-            font-weight: normal;
-        }
-        a.heatmap-high {
-            color: #c66 !important;   
-        }
-        width: 100px;
-    }
+/* Fix for Discourse bug.
+   Progress indicator positioning gets off with footer. */
+.posts-wrapper {
+  margin-bottom: 16px;
 }
 
-.topic-list td.last-post, .topic-list th.activity {
-    width: 160px;
-    .relative-date {
-        color: #666;
-    }
-}
-
-.topic-list .creator .relative-date {
-    margin-left: 8px;
-}
-
-.badge-category-bg {
-    opacity: 0.8;
-}
-
-.topic-list .badge-wrapper.bar {
-    .badge-category {
-      color: #9a9a9a !important;
-      font-weight: 600;
-      font-size: 12px;
-      padding: 2px 6px;
-    }
-    .badge-category-bg {
-        top: -1px;
-    }
-}
-
-.last-post {
-    .poster-avatar {
-        margin-right: 10px;
-    }
-    .poster-avatar, .poster-info {
-        float: left;
-    }
-}
-
-.topic-list .posts {
-    width: auto;
-}
-
-/* topic page */
-#topic-progress {
-    background-color: #f1f1f1;
-    color: #666;
-    font-weight: normal;
-    .bg {
-       background-color: #bee9e9;
-    }
-}
-
-nav.post-controls button.has-like {
-    color: #08c;
-}
-
-.badge-wrapper.bullet span.badge-category {
-    color: #333 !important;
-}
-
-.creator .badge-wrapper.bullet span.badge-category {
-    color: #888 !important;
-    margin-top: -2px;
-}
-
-img.avatar {
-    border-radius: 3px;
-}
-
-#suggested-topics td.main-link {
-    width: 500px;
-}
-
-.topic-list a.title.visited:not(.badge-notification) {
-    color: #6644aa;
-}
-
-
-.topic-list-item .discourse-tags {
-    font-size: 0.75em;
-    display: inline-block;
-    margin-left: 5px;
+#topic-progress-wrapper.docked {
+  margin-bottom: -20px;
 }
