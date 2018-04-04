@@ -7,7 +7,7 @@
   "color_schemes": {
               "NovelistTheme": {
             "primary": "443333", //text color
-            "secondary": "e2eff3", //page background
+            "secondary": "000000", //page background
             "tertiary": "63b9c4", //button background
             "quaternary": "0095b0", //button background also?
             "header_background": "7edaee", //header
