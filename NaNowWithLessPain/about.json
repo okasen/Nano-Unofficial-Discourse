@@ -1,21 +1,21 @@
 {
-  "name": "Okatheme",
+  "name": "Novelisttheme",
   "about_url": "URL",
   "license_url": "URL",
   "assets": {
   },
   "color_schemes": {
-              "NanoTheme": {
-            "primary": "d1def3",
-            "secondary": "FF00FF",
-            "tertiary": "00FF00",
-            "quaternary": "FFFF00",
-            "header_background": "FF00CC",
-            "header_primary": "00FFFF",
-            "highlight": "CCFFFF",
+              "NovelistTheme": {
+            "primary": "53301a",
+            "secondary": "e2eff3",
+            "tertiary": "a5d9e4",
+            "quaternary": "a5d9e4",
+            "header_background": "7ecaee",
+            "header_primary": "674732",
+            "highlight": "fcf0da",
             "danger": "000000",
-            "success": "CCFFCC",
-            "love": "FFDDDDD"
+            "success": "40b549",
+            "love": "bb0055"
         }
   }
 }
