@@ -25,7 +25,7 @@ body:before {
   width: 1250px;
   min-height: 100%;
   height: inherit;
-  background-color: $primary;
+  background-color: $secodary;
   content: " ";
   position: fixed;
   left: 50%;
@@ -81,7 +81,6 @@ body.docked::before {
 // Remove extra space between before ad in categories view
 #list-area {
   margin-bottom: 20px;
-    border-color: black;
 }
 
 // The so called "Sanitized Mod" UI adjustments
