@@ -1,13 +1,21 @@
 {
-  "name": "The name of your theme",
-  "about_url": "http://somesite.com/about_your_theme",
-  "license_url": "http://somesite.com/license",
-   "assets": {
-       "font": "assets/some_font.woff2"
-   },
-   "color_schemes": {
-       "Scheme Name": {
-          "primary": "AAABBB"
+  "name": "Okatheme",
+  "about_url": "URL",
+  "license_url": "URL",
+  "assets": {
+  },
+  "color_schemes": {
+              "NanoTheme": {
+            "primary": "d1def3",
+            "secondary": "FF00FF",
+            "tertiary": "00FF00",
+            "quaternary": "FFFF00",
+            "header_background": "FF00CC",
+            "header_primary": "00FFFF",
+            "highlight": "CCFFFF",
+            "danger": "000000",
+            "success": "CCFFCC",
+            "love": "FFDDDDD"
         }
-    }
+  }
 }
