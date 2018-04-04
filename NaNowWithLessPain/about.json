@@ -9,8 +9,8 @@
             "primary": "53301a", //text color
             "secondary": "e2eff3", //page background
             "tertiary": "a5d9e4", //button background
-            "quaternary": "#00b0b0", //button background also?
-            "header_background": "7ecaFF", //header
+            "quaternary": "00b0b0", //button background also?
+            "header_background": "7edaee", //header
             "header_primary": "674732", //header text
             "highlight": "ee8257", //color of text when highlighted
             "danger": "000000", //no idea what these 3 do
