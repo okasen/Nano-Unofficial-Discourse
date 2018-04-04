@@ -1,25 +1,12 @@
 // Header modifications with stripe and shadow
 .d-header {
-  border-bottom: 20px dashed #bb6633;
+  border-bottom: 5px dotted #996633;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);
 }
 
 // Header logos to pure white
-/*.d-header-icons .d-icon {
+ .d-header-icons .d-icon {
   opacity: 1;
-}*/
-
-// Increase logo sizes
-#site-logo.logo-big {
-  height: 500px;
-  width: 1860px;
-  margin-top: -5px;
-}
-
-#site-logo.logo-small {
-  height: 500px;
-  width: 510px;
-  margin-top: -5px;
 }
 
 // Natural white background for content with shadow
