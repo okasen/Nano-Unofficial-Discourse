@@ -11,7 +11,7 @@
 
 // Natural white background for content with shadow
 body {
-  background-color: #e6e6e6;
+  background-color: #a09a91;
 }
 
 body:before {
@@ -19,7 +19,7 @@ body:before {
   width: 1125px;
   min-height: 100%;
   height: inherit;
-  background-color: #fdfbf9;
+  background-color: #e3eff3;
   content: " ";
   position: fixed;
   left: 50%;
@@ -117,15 +117,15 @@ body.docked::before {
 
 // Last visit separator re-coloring
 .topic-list .topic-list-item-separator td {
-  border-bottom: 1px solid #ff6600;
+  border-bottom: 1px solid #996633;
   line-height: 0.1em;
   padding: 0px;
   text-align: center;
 }
 
 .topic-list .topic-list-item-separator td span {
-  background-color: #FDFBF9;
-  color: #ff6600;
+  background-color: #e2eff3;
+  color: #796a61;
   padding: 0px 8px;
   font-size: 0.929em;
 }
