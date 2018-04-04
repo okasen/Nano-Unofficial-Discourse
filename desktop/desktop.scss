@@ -1,5 +1,6 @@
 // Heavy Shadow
 .d-header {
+    height: 250px
   border-bottom: 5px dotted #996633;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);
 }
@@ -10,7 +11,7 @@ body {
 }
 
 //make logo bigger
-.site-logo {
+#site-logo {
     height: 250px;
 }
 
