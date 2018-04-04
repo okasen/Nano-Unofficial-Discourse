@@ -11,7 +11,11 @@ body {
 }
 
 .content-list h3 {
-    color: red;
+    color: $header-primary;
+}
+
+.header-dropdown-toggle {
+    color: aqua;
 }
 
 //make logo bigger
