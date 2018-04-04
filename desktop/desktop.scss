@@ -83,6 +83,10 @@ body.docked::before {
   margin-bottom: 20px;
 }
 
+.topic-list {
+    color: rebeccapurple;
+}
+
 // The so called "Sanitized Mod" UI adjustments
 .topic-list .activity .latest-info {
   display: inline-block;
