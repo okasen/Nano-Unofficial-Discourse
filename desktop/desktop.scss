@@ -125,7 +125,7 @@ body.docked::before {
 // Last visit separator re-coloring
 .topic-list .topic-list-item-separator td {
   border-bottom: 10px solid #996633; //test
-  line-height: 0.1em;
+  line-height: 1em;
   padding: 0px;
   text-align: center;
 }
@@ -134,7 +134,7 @@ body.docked::before {
   background-color: #fefeee;
   color: #594a41; //text color
   padding: 0px 80px; //testing padding
-  font-size: 0.929em;
+  font-size: 1em;
 }
 
 /* Fix for Discourse bug.
