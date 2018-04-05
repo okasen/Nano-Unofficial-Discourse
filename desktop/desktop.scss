@@ -186,7 +186,7 @@ body.docked::before {
 
 .topic-list .badge-wrapper.bar {
     .badge-category {
-      color: #FF0000 !important; //is it red?
+      color: #FFFFFF !important; //is it black
       font-weight: 600;
       font-size: 12px;
       padding: 2px 6px;
@@ -250,3 +250,15 @@ img.avatar {
     display: inline-block;
     margin-left: 5px;
 }
+
+//^^from samsaffron simple theme
+
+#create-topic:hover,
+.topic-list .sortable:hover,
+.drop-down-visible .d-header .icons .active .icon,
+.d-header .icons .icon:hover {
+    color: #FF0000;
+    background-color: #069;
+}
+
+//from featheredtoast as dark
