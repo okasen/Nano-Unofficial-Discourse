@@ -26,7 +26,6 @@ body:before {
   min-height: 100%;
   height: inherit;
   background-color: $secondary;
-  content: " ";
   position: fixed;
   left: 50%;
   right: 0;
@@ -253,8 +252,6 @@ img.avatar {
 
 //^^from samsaffron simple theme
 
-/* unvisited link */
-.topic-list a{
-    color: red;
+div.menu-links-header a:link {
+    color: fuchsia;
 }
-//b-IGgy
