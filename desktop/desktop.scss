@@ -234,6 +234,7 @@ nav.post-controls button.has-like {
 
 img.avatar {
     border-radius: 3px;
+    width: 80px;
 }
 
 #suggested-topics td.main-link {
@@ -254,23 +255,7 @@ img.avatar {
 //^^from samsaffron simple theme
 
 /* unvisited link */
-a:link {
+.topic-list a{
     color: red;
 }
-
-/* visited link */
-a:visited {
-    color: green;
-}
-
-/* mouse over link */
-a:hover {
-    color: hotpink;
-}
-
-/* selected link */
-a:active {
-    color: blue;
-}
-
 //b-IGgy
