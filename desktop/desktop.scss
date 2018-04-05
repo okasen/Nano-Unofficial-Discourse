@@ -120,10 +120,12 @@ body.docked::before {
     font-color: #ff0000;
 }
 
-.topic-list .main-link clearfix {
+.title raw-link raw-topic-link {
     width: auto;
     color: #FF0000;
 }
+
+
 
 .topic-list {
     td, .creator a, .editor a {
