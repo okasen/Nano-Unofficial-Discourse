@@ -253,8 +253,24 @@ img.avatar {
 
 //^^from samsaffron simple theme
 
-a {
+/* unvisited link */
+a:link {
     color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
 
 //b-IGgy
