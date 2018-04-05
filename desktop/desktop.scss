@@ -117,12 +117,12 @@ body.docked::before {
     font-size: 13px;
     display: block;
     margin-top: 3px;
-    font-color: #ff0000;
+    font-color: $primary;
 }
 
 .topic-list {
     td, .creator a, .editor a {
-        color: #ff0000; 
+        color: $primary; 
     }
 }
 
@@ -234,7 +234,6 @@ nav.post-controls button.has-like {
 
 img.avatar {
     border-radius: 3px;
-    width: 80px;
 }
 
 #suggested-topics td.main-link {
